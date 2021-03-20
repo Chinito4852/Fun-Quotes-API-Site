@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fun Quotes API</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Zilla+Slab&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <!-- Favicon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Local css -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <div class="header container">
+      <p> <span class="title">Fun Quotes API</span> &emsp;&emsp;&emsp;&emsp; One quote API to rule them all. </p>
+    </div>
+
+    <div class="main container">
+      <hr>
+      <div class="code">
+        <p>
+          {<br/>
+          &emsp;"quote": "<span id="quote"></span>",<br/>
+          &emsp;"author": "<span id="author"></span>"<br/>
+          }
+        </p>
+      </div>
+      <div class="url-block">
+        <h3>GET:&ensp;<a href="https://fun-quotes.herokuapp.com/random" id="url">https://fun-quotes.herokuapp.com/</a></h3>
+      </div>
+      <div class="button-block">
+        <button type="button" class="url-btn" name="kanye">/kanye</button>
+        <button type="button" class="url-btn" name="taylor">/taylor</button>
+        <button type="button" class="url-btn" name="ron">/ron</button>
+        <button type="button" class="url-btn" name="inspirational">/inspirational</button>
+        <button type="button" class="url-btn" name="random">/random</button>
+      </div>
+      <hr>
+    </div>
+
+    <div class="footer container">
+      <p>
+        Credits to Andrew Jazbec for <a href="https://kanye.rest/" target="_blank">kanye.rest</a>, gillescoolen for
+        <a href="https://taylor.rest/" target="_blank">taylor.rest</a>, jamesseanwright for the
+        <a href="https://github.com/jamesseanwright/ron-swanson-quotes" target="_blank">Ron Swanson quotes API</a>,
+        and Alty, Inc. for <a href="http://forismatic.com/en/api/" target="_blank">Forismatic</a>.
+      </p>
+      <p class="github-links"> <span class="fa fa-github"></span>&ensp;
+        <a href="https://github.com/Chinito4852/Fun-Quotes-API" target="_blank">API</a>&ensp;
+        <a href="#">Site</a> </p>
+      <p class="copyright">© 2021 Tristin Wong</p>
+    </div>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <!-- Local script -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+$titleFont: 'Lobster', cursive;
+$bodyFont: 'Zilla Slab', serif;
+$codeFont: 'Source Code Pro', monospace;
+$backgroundColor: #F8F4E1;
+$codeFontColor: #EEEEEE;
+$codeBackgroundColor: #303F4E;
+
+body {
+  font-family: $bodyFont;
+  background-color: $backgroundColor;
+}
+
+h1 {
+  font-family:$titleFont;
+  font-size: 4em;
+  float: left;
+}
+
+.header > p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.title {
+  font-family:$titleFont;
+  font-size: 4em;
+}
+
+.main > hr {
+  margin-top: 0;
+}
+
+.code {
+  font-family: $codeFont;
+  color: $codeFontColor;
+  background-color: $codeBackgroundColor;
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  line-height: 2;
+  margin: 1em auto;
+}
+
+.code > p {
+  margin: 0;
+}
+
+.url-block {
+  margin-bottom: 2em;
+}
+
+.button-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.url-btn {
+  border-radius: 10px;
+  border: none;
+  font-style: $codeFont;
+  color: $codeFontColor;
+  background-color: $codeBackgroundColor;
+  width: 8em;
+  height: 2em;
+  margin-right: 1.5em;
+}
+
+.url-btn:focus {
+  border: none;
+  outline: none;
+}
+
+.github-links, .copyright {
+  text-align: center;
+}
+
+.github-links > a {
+  text-decoration: underline;
+  color: black;
+}
+
+.fa-github {
+  font-size: 24px;
+}
+
+#url {
+  color: black;
+  font-size: 20px;
+}
